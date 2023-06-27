@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Demo') {
             steps {
-                sh 'hello-world.sh'
+                sh './hello-world.sh'
             }
         }
     }  
